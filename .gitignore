@@ -242,3 +242,5 @@ src/WebUI/ClientApp/package-lock.json
 
 # Template generation
 **/*.nupkg/**
+
+nuget.confg
