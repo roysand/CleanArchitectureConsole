@@ -12,14 +12,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="src\**\*" Exclude="**\bin\**\*;**\obj\**\*" />
-        <Content Include="apps\**\*" Exclude="**\bin\**\*;**\obj\**\*" />
+    <Content Include="**\*" Exclude="**\bin\**\*;**\obj\**\*;*.nupkg" />
     <Compile Remove="**\*" />
   </ItemGroup>
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <Version>1.0.4</Version>
+    <Version>1.0.8</Version>
     <PackageId>CleanArchitectureConsoleTemplate</PackageId>
     <Title>Clean Architecture Console Tempolate</Title>
     <Company>Sanddata</Company>
