@@ -7,10 +7,12 @@ using Microsoft.Extensions.Hosting;
 
 // create hosting object and DI layer
 using IHost host = CreateHostBuilder(args).Build();
+
 // create a service scope
 using var scope = host.Services.CreateScope();
 
 var services = scope.ServiceProvider;
+
 try
 {
     services.GetRequiredService<App>().Run(args);
