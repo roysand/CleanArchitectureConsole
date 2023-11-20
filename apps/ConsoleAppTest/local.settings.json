@@ -1,0 +1,5 @@
+{
+  "ApplicationSettings": {
+    "DbConnectionString": "Server=sda-mssql2022,1433;Database=ams;TrustServerCertificate=True;Encrypt=True;Connection Timeout=30;Trusted_Connection=True;"
+  }
+}
