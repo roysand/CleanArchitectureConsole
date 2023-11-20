@@ -28,7 +28,6 @@ public class App
         catch (Exception e)
         {
             Console.WriteLine(e);
-            throw;
         }
 
 
