@@ -2,4 +2,5 @@
 
 ## Dotnet commands
 - dotnet pack .\nuget.csproj
-- dotnet nuget push --source "MyGitHub" --api-key "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" .\CleanArchitectureConsoleTemplate.1.0.x.nupkg --interactive
+- dotnet nuget push --source "MyGitHub" --api-key "acces-token" .\CleanArchitectureConsoleTemplate.1.0.x.nupkg --interactive
+- dotnet new install CleanArchitectureConsoleTemplate::1.0.8 --interactive -d
