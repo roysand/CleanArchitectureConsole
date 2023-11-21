@@ -24,13 +24,13 @@
         "datatype": "choice",
         "choices": [
             {
-                "choice": "net7.0"
+                "choice": "net8.0"
             },
             {
-                "choice": "net6.0"
+                "choice": "net7.0"
             }
         ],
-        "defaultValue": "net7.0",
+        "defaultValue": "net8.0",
         "replaces": "{TargetFramework}"
     }
     },
