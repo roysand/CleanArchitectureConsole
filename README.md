@@ -1,4 +1,6 @@
 ## Clean Architecture Console template
+Change version of package in file nuget.csproj before pushing to GitHub.
+Remember to create a branch before doing this.
 
 ## Dotnet commands
 - dotnet pack .\nuget.csproj
